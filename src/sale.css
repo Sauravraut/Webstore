@@ -15,7 +15,7 @@
 #body_mid-main-card_cont{
     height: 100%;
     width: 70%;
-    background-color: red;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,51 +28,104 @@
 #card_holder div{
     position: absolute;
 }
-#card-1{
+#card_holder>div:hover{
+    background-color: white;
+    z-index: 1;
+}
+#card-1-cont{
     top:0;
     left: 0;
-    height: 32vh;
-    width: 60vh;
-    background-color: black;
+    height: 31vh;
+    width: 61vh;
+}
+#card-1{
+    height: 29vh;
+    width: 59vh;
+    background-color: tomato;
+}
+#card-2-cont{
+    top: 0;
+    left: 59vh;
+    height: 31vh;
+    width: 32vh;
+    display: flex;
+    justify-content: center;
 }
 #card-2{
-    top: 0;
-    left: 60vh;
-    height: 30vh;
-    width: 30vh;
+    height: 29vh;
+    width: 28vh;
+    position: relative;
     background-color: blue;
+    
 }
-#card-3{
+#card-3-cont{
     bottom: 0;
     left: 0;
-    height: 50vh;
-    width: 40vh;
+    height: 51vh;
+    width: 41vh;
+    position: relative;
+}
+#card-3{
+    height: 49vh;
+    width: 39vh;
     background-color: yellow;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+#card-4-cont{
+    bottom: 0;
+    left: 39vh;
+    height: 51vh;
+    width: 52vh;
+    position: relative;
 }
 #card-4{
+    height: 49vh;
+    width: 48vh;
+    position: absolute;
     bottom: 0;
-    left: 40vh;
-    height: 50vh;
-    width: 50vh;
-    background-color: green;
+    left:2vh;
+    background-color: rgb(12, 170, 12);
 }
-#card-5{
+#card-5-cont{
     right: 0;
     top: 0;
-    height: 100%;
-    width: 40vh;
-    background-color: purple;
+    height: 80vh;
+    width: 41vh;
+    position: relative;
+}
+#card-5{
+    height: 80vh;
+    width: 39vh;
+    position: absolute;
+    left: 2vh;
+    background-color: rgb(202, 3, 202);
 }
 #body_mid-main-side{
     height: 100%;
     width: 30%;
 }
 #body_mid-title{
-    height: 70%;
+    height: 30%;
     width: 100%;
     display: flex;
     justify-content: center;
 }
 #body_mid-title p{
     font-size: 50px;
+}
+#body_mid-gif{
+    height: 70%;
+    width: 100%;
+    overflow: hidden;
+}
+#body_mid-gif img{
+    max-width: 200%;
+    position: relative;
+    transition: width 2s, height 2s, transform 2s;
+}
+#body_mid-gif img:hover{
+    transform: rotate(360deg);
 }
