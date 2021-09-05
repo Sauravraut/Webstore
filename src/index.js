@@ -2,11 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-
+import Body from "./body.js";
 import Nav from "./nav.js"; 
+import Sale from "./sale.js";
+import Bot from "./bot.js";
 ReactDOM.render(
   <React.StrictMode>
     <Nav />
+    <Body />
+    <Sale />
+    <Bot/>
   </React.StrictMode>,
   document.getElementById('root')
 );

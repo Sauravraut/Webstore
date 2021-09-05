@@ -1,0 +1,78 @@
+#body_mid{
+    height: 100vh;
+    width: 100%;
+}
+.gap{
+    height: 10vh;
+    width: 100%;
+}
+#body_mid-main{
+    height: 90vh;
+    width: 100%;
+    background-color: wheat;
+    display: flex;
+}
+#body_mid-main-card_cont{
+    height: 100%;
+    width: 70%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#card_holder{
+    height: 80vh;
+    width: 130vh;
+    position: relative;
+}
+#card_holder div{
+    position: absolute;
+}
+#card-1{
+    top:0;
+    left: 0;
+    height: 32vh;
+    width: 60vh;
+    background-color: black;
+}
+#card-2{
+    top: 0;
+    left: 60vh;
+    height: 30vh;
+    width: 30vh;
+    background-color: blue;
+}
+#card-3{
+    bottom: 0;
+    left: 0;
+    height: 50vh;
+    width: 40vh;
+    background-color: yellow;
+}
+#card-4{
+    bottom: 0;
+    left: 40vh;
+    height: 50vh;
+    width: 50vh;
+    background-color: green;
+}
+#card-5{
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 40vh;
+    background-color: purple;
+}
+#body_mid-main-side{
+    height: 100%;
+    width: 30%;
+}
+#body_mid-title{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#body_mid-title p{
+    font-size: 50px;
+}

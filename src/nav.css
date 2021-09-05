@@ -3,6 +3,12 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
+    min-width: 100px;
+}
+a:hover{
+    color: white;
+    background-color: #c5c5c5;
 }
 a img{
     height: 80%;
@@ -16,17 +22,21 @@ a img{
 #nav_bar{
     height: 10vh;
     display: flex;
+    background-color: rgb(230, 230, 230);
+    position: -webkit-sticky;
+    position: sticky;
+    top:0;
+    z-index: 2;
+    mix-blend-mode: multiply;
 }
 #logo_space{
     width: 15%;
 }
 #products_space{
-    width: 30%;
     display: flex;
     justify-content: space-between;
 }
 #search_space{
-    width: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -38,10 +48,13 @@ a img{
 }
 #search_space-input-box{
     width: 90%;
+    border-radius: 5px 0 0 5px;
+    border: none;
 }
 #search_space-input-icon{
     width: 10%;
     background-color: grey;
+    border-radius: 0 5px 5px 0 ;
 }
 #nav_vline{
     background-color: black;
@@ -58,25 +71,5 @@ a img{
 }
 #user_space img{
     height: 80%;
+    cursor: pointer;
 }
-img:hover {
-    /* Start the shake animation and make the animation last for 0.5 seconds */
-    animation: shake 0.5s;
-  
-    /* When the animation is finished, start again */
-    animation-iteration-count: infinite;
-  }
-  
-  @keyframes shake {
-    0% { transform: translate(1px, 1px) rotate(0deg); }
-    10% { transform: translate(-1px, -2px) rotate(-1deg); }
-    20% { transform: translate(-3px, 0px) rotate(1deg); }
-    30% { transform: translate(3px, 2px) rotate(0deg); }
-    40% { transform: translate(1px, -1px) rotate(1deg); }
-    50% { transform: translate(-1px, 2px) rotate(-1deg); }
-    60% { transform: translate(-3px, 1px) rotate(0deg); }
-    70% { transform: translate(3px, 1px) rotate(-1deg); }
-    80% { transform: translate(-1px, -1px) rotate(1deg); }
-    90% { transform: translate(1px, 2px) rotate(0deg); }
-    100% { transform: translate(1px, -2px) rotate(-1deg); }
-  }
