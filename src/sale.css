@@ -124,8 +124,8 @@
 #body_mid-gif img{
     max-width: 200%;
     position: relative;
-    transition: width 2s, height 2s, transform 2s;
+    transition: width 6s, height 6s, transform 4s;
 }
-#body_mid-gif img:hover{
+#body_mid:hover img{
     transform: rotate(360deg);
 }

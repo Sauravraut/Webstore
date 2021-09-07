@@ -5,4 +5,28 @@
 #nav_bot-main{
     background-color:  rgb(167, 167, 167);
     height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+#nav_bot-main>div{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+#nav_bot-main>div>ul{
+    padding:0;
+    margin: 0;
+    list-style-type: none;
+    height: 100%;
+}
+#nav_bot-main>div>ul>li{
+    width: 100%;
+}
+#nav_bot-main-1{
+    height: 100%;
+}
+.nav_bot-main-title{
+    color:blue;
 }
