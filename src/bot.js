@@ -4,7 +4,7 @@ function Bot(){
         <div id = "nav_bot">
             <div className = "gap"></div>
             <div id = "nav_bot-main">
-                <div>
+                <div id = "nav_bot-main-cont">
                 <ul id = "nav_bot-main-1">
                     <li className = "nav_bot-main-title">Products</li>
                     <li>Mango+</li>
@@ -13,6 +13,11 @@ function Bot(){
                     <li>Music</li>
                     <li>Mpad</li>
                     <li>Mtouch</li>
+                </ul>
+                <ul>
+                    <li>Store nears you</li>
+                    <li>
+                    </li>
                 </ul>
             </div>
         </div>
